@@ -1,0 +1,13 @@
+type Query {
+	welcome: String!
+}
+
+type Subscription {
+	studentData: Student
+}
+
+type Student {
+	id: String
+	name: String
+	marks: Float
+}
